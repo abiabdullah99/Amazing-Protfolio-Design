@@ -1,0 +1,186 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+*{
+    background-color: #212428; 
+}
+.logo img{
+    width: 40px;
+    border-radius: 50%;
+    height: 30px;
+}
+.logo{
+    margin-left: 900px;
+    margin-top: 32px;
+}
+.navbar{
+    display: flex;
+}
+.nav{
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+.nav a:hover{
+    color: tomato;
+}
+.nav a{
+    margin-right: 18px;
+    font-size: 16px;
+    font-weight: 200;
+    text-decoration: none;
+    color: #E5DDDE
+}
+.top-header{
+    display: flex;
+}
+.haif-width{
+    width: 50%;
+}
+#active{
+    color: tomato;
+    font-weight: 400;
+}
+.haif-width img{
+  width: 90%;
+}
+.head{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+h1{
+    font-size: 55px;
+    color: #E5DDDE;
+    letter-spacing: 1px;
+}
+h3{
+    color: #E5DDDE;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+span{
+    color: tomato;
+}
+p{
+    color: #E5DDDE;
+    font-size: 14px;
+    font-weight: 200;
+    width: 90%;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+.button{
+    font-size: 16px;
+    background-image: linear-gradient(30deg,tomato, #CD6C24);
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #E5DDDE;
+    border-radius: 5px;
+}
+
+
+/* ------- about Section Start---------- */
+.about{
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.about-1{
+    margin-top: 220px;
+    letter-spacing: 1px;
+}
+.p-tag{
+    text-align: justify;
+    width: 65%;
+    letter-spacing: 1px;
+}
+.back{
+    background-image: url(img/dream-bg1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+/* ------------project area-------------  */
+.top{
+    margin-top: 150px;
+}
+.top p{
+   text-align: center;
+   width: 100%;
+   letter-spacing: 1px;
+}
+.top h1{
+    color: #E5DDDE;
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-align: center;
+}
+h2{
+    color: #E5DDDE;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-align: center;
+}
+.tag{
+    margin-top: -30px;
+}
+
+
+
+
+/* -- Portfolio part Start---- */
+
+.section-5{
+    width: 100%;
+    
+}
+.img{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.img div{
+    width: 340px;
+    height: 339px;
+    padding-bottom: 140px;
+    text-align: center;
+}
+.section5 figure{
+    background: linear-gradient(55deg, #42adff, #8195FF);
+    width: 340px;
+    height: 339px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border-radius: 2px;
+}
+.section5 figure img:hover{
+    opacity: 0.3;
+    transition: all .3s;
+}
+.img h1{
+    font-size: 20px;
+    text-align: center;
+    color: #3a3737;
+}
+.img h5{
+    font-size: 15px;
+    text-align: center;
+    color: #777373;
+    margin-top: -18px;
+}
+
+/* -- Portfolio part end---- */
+
+
+
+
+
