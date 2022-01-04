@@ -7,9 +7,9 @@ body{
     background-color: #212428; 
 }
 .logo img{
-    width: 40px;
+    width: 50px;
     border-radius: 50%;
-    height: 30px;
+    height: 40px;
 }
 .logo{
     margin-left: 900px;
@@ -154,7 +154,6 @@ h2{
     text-align: center;
 }
 .section5 figure{
-    background: linear-gradient(55deg, #42adff, #8195FF);
     width: 340px;
     height: 339px;
     overflow: hidden;
@@ -162,24 +161,53 @@ h2{
     padding: 0;
     border-radius: 2px;
 }
-.section5 figure img:hover{
-    opacity: 0.3;
-    transition: all .3s;
-}
 .img h1{
     font-size: 20px;
     text-align: center;
-    color: #3a3737;
+    color: #E5DDDE;
 }
 .img h5{
     font-size: 15px;
     text-align: center;
-    color: #777373;
+    color: tomato;
     margin-top: -18px;
+    font-weight: 400;
 }
 
 /* -- Portfolio part end---- */
 
+.new{
+    margin-top: 200px;
+    margin-left: 130px;
+    margin-bottom: 150px;
+}
+.new img{
+  width: 85%;
+}
+
+
+
+.purpose{
+    background-image: linear-gradient(30deg,tomato, #CD6C24);
+    height: auto;
+}
+.end{
+    background-color: tomato;
+}
+.end p{
+    font-size: 40px;
+
+
+}
+.end a{
+   text-align: center;
+}
+
+footer p{
+    text-align: center;
+    color:#E5DDDE;
+    font-size: 15px;
+}
 
 
 
